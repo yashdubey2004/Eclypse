@@ -55,17 +55,17 @@ const About = () => {
           <div className="max-w-6xl mx-auto px-6">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               <img 
-                src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                src="/cart1.png"
                 alt="Eclypse craftsmanship"
                 className="w-full h-80 object-cover rounded-lg"
               />
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                src="/cart2.png"
                 alt="Eclypse design process"
                 className="w-full h-80 object-cover rounded-lg"
               />
               <img 
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                src="/cart3.png"
                 alt="Eclypse materials"
                 className="w-full h-80 object-cover rounded-lg"
               />

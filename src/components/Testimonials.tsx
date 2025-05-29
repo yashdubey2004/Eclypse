@@ -8,8 +8,8 @@ const Testimonials = () => {
   const testimonials = [
     {
       quote: "Understated, but unforgettable. It feels like it was made for me",
-      author: "Random Woman",
-      location: "NY, USA",
+      author: "Yash Dubey",
+      location: "Mumbai, India",
       image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
     },
     {
