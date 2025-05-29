@@ -1,73 +1,113 @@
-# Welcome to your Lovable project
+# Eclypse – Quiet Luxury E-Commerce
 
-## Project info
+Welcome to **Eclypse**, a modern, luxury e-commerce platform designed for those who appreciate understated elegance and timeless design. This project is built with React, TypeScript, Tailwind CSS, and features a refined, high-end user experience.
 
-**URL**: https://lovable.dev/projects/85cbaa64-f730-484d-ad44-90343adba8fd
+---
 
-## How can I edit this code?
+## ✨ Features
 
-There are several ways of editing your application.
+- **Luxury Brand UI**: Minimal, elegant, and responsive design with a focus on premium aesthetics.
+- **Product Showcase**: Interactive product gallery with hover overlays and detailed product views.
+- **Smart Size Prediction**: AI-powered size recommendation based on user input (height, weight, body shape, fit preference).
+- **Community Styling & Voting**: Users can upload their own looks, vote for "Style of the Week", and winners receive exclusive discounts.
+- **Shoppable Lookbooks**: Editorial-style layouts with direct shopping links.
+- **Cart & Checkout**: Seamless cart management, address form, and order summary.
+- **Eco-Friendly Packaging Option**: Choose between regular and eco-packaging at checkout.
+- **Testimonials**: Genuine, luxury-focused client testimonials.
+- **Modern Navbar & Footer**: Aesthetic navigation and footer with brand info and quick links.
+- **Dark Mode**: Fully dark-themed for a premium feel.
+- **Responsive**: Looks great on all devices.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/85cbaa64-f730-484d-ad44-90343adba8fd) and start prompting.
+## 🚀 Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- [Node.js](https://nodejs.org/) (v16+ recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/eclypse.git
+   cd eclypse
+   ```
 
-Follow these steps:
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+4. **Open in your browser:**
+   ```
+   http://localhost:5173
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 🛠️ Project Structure
+
+- `src/components/` – All React components (Navbar, Footer, ProductShowcase, ProductDetail, etc.)
+- `src/pages/` – Page-level components (Home, About, Cart, etc.)
+- `src/index.css` – Tailwind and global styles.
+- `public/` – Static assets (images, favicon, etc.)
+
+---
+
+## 🛒 Usage Guide
+
+- **Browse Products:** Explore the main page for featured products and editorial lookbooks.
+- **Product Details:** Click on a product to view details, additional images, and use the smart size prediction tool.
+- **Add to Cart:** Select your size and add products to your cart.
+- **Checkout:** Enter your shipping address, choose packaging, and review your order summary.
+- **Community Styling:** Upload your own looks and vote for your favorites in the "Style of the Week" section.
+- **Testimonials:** Read what our clients say about their Eclypse experience.
+
+---
+
+## 🖼️ Customization
+
+- **Branding:** Replace `/public/eclypse-logo.png` and other images with your own brand assets.
+- **Theme:** Adjust Tailwind config and CSS for further customization.
+- **Products:** Update product data and images in the relevant components or connect to your backend.
+
+---
+
+## 📦 Deployment
+
+To build for production:
+
+```bash
+npm run build
+# or
+yarn build
 ```
 
-**Edit a file directly in GitHub**
+Deploy the contents of the `dist/` folder to your preferred hosting provider (Vercel, Netlify, etc.).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 📄 License
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This project is licensed under the MIT License.
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 📬 Contact
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+For support or inquiries, email: [support@eclypse.com](mailto:support@eclypse.com)
 
-## How can I deploy this project?
+Follow us on [Instagram](https://instagram.com/eclypse) for the latest updates.
 
-Simply open [Lovable](https://lovable.dev/projects/85cbaa64-f730-484d-ad44-90343adba8fd) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
